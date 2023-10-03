@@ -1,0 +1,48 @@
+body{
+    background-image: url("sasori\ 2\ final.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body {
+  background-image: url('sasori\ 2\ final.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: cover;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #837f7f;
+    opacity: 0.6;
+    
+  }
+  
+li {
+    float: left;
+    border-right:0px solid #bbb;
+  }
+  
+li:last-child {
+    border-right: none;
+  }
+  
+li a {
+    display: block;
+    color: rgb(255, 254, 254);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+li a:hover:not(.active) {
+    background-color: #383838;
+  }
+  
+.active {
+    background-color: #464646;
+  }
+
